@@ -1,6 +1,6 @@
 {
-  "name": "chat2",
-  "description": "A simple chat app",
+  "name": "chat",
+  "description": "A simple node.js app used in Codeship screencasts.",
   "version": "0.0.1",
   "engines": {
     "node": "0.10.x",
@@ -15,7 +15,7 @@
     "zombie": "*",
     "ejs": "*"
   },
-	"subdomain": "chat2",
+	"subdomain": "chat",
 	"scripts": {
 		"start": "node index.js"
 	}

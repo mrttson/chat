@@ -50,7 +50,7 @@ ioApp
 		})
 	});
 
-app.listen(3000, "http://chatting-app.herokuapp.com/");
+app.listen(process.env.PORT, process.env.IP);
 
 
 

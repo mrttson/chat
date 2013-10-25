@@ -95,7 +95,7 @@
 				userName = $(userNameField).val();
 
 				// Initialize Socket.IO connection
-				var socket = io.connect("/listen");
+				var socket = io.connect();
 				socket.emit('set name', userName)
 					.on('begin chat', function() {
 
